@@ -1,5 +1,16 @@
 
-# Building a Local AI Agent using Python, Ollama, RAG, Langchain and ChromaDB  
+# Building a Local AI Agent using Python, Ollama, RAG, Langchain and ChromaDB    
+     This Local AI agent read the given .csv file and will give answers to the question asked from this csv file
+
+# Sample QA: 
+    **Question:** 
+        Ask your question (q to quit):tell me about Advanced Router Rechargeable?
+    **Answer:** 
+        Based on the provided document information, I can tell you that the "Advanced Router Rechargeable" is a product from Gallagher and Sons. The metadata description associated with this product reads, "For force gas energy six laugh."
+        Unfortunately, the page content for this product is not explicitly stated, which may limit my ability to provide more detailed information about its features, specifications, or benefits.
+        However, I can suggest that if you're interested in learning more about this product, you might want to consider reaching out to Gallagher and Sons directly or checking their official website for more information.
+    
+
 
 ## Steps involved
   1. downlaod ollama
