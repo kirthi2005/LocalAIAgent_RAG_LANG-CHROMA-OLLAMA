@@ -4,13 +4,13 @@
 ## Steps involved
   1. downlaod ollama
   
-  2.** Create virtual environment:** Python -m venv .venv ./venv/Scripts/activate
+  2.**Create virtual environment:** Python -m venv .venv ./venv/Scripts/activate
   
-  3.** Install all the required dependencies mentioned in requirements.txt:** pip install -r requirements.txt
+  3.**Install all the required dependencies mentioned in requirements.txt:** pip install -r requirements.txt
   
-  4:** Pull Ollama models we are going to use: ** ollama pull llama3.2
+  4:**Pull Ollama models we are going to use:** ollama pull llama3.2
   
-  5. ** Pull Ollama models we are going to use: ** ollama pull mxbai-embed-large
+  5. **Pull Ollama models we are going to use:** ollama pull mxbai-embed-large
      
   6.  **To run main.py:** python .\main.py 
   
@@ -22,12 +22,13 @@
   
   In command prompt check what are the ollama models available ollama list NAME ID SIZE MODIFIED mxbai-embed-large:latest 468836162de7 669 MB 2 hours ago llama3.2:latest a80c4f17acd5 2.0 GB 2 hours ago
   
- ## Git commands
-  
-**  1. Create .gitignore file and add following folders/files: **.venv/ pycache/ *.pyc # Ignore your ChromaDB folder (usually better to rebuild locally) chroma_db/ .env run: 
-  git init
-  git add . 
-  git commit -m "RAG project with LangChain and Chroma using Ollama"
-  git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
-  git branch -M main
-  git push -u origin main
+ ## gitignore  
+  **Create .gitignore file and add following folders/files:**.venv/ pycache/ *.pyc # Ignore your ChromaDB folder (usually better to rebuild locally) chroma_db/ .env run: 
+
+  ## git commands
+    *git init
+    *git add . 
+    *git commit -m "RAG project with LangChain and Chroma using Ollama"
+    *git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
+    *git branch -M main
+    *git push -u origin main
