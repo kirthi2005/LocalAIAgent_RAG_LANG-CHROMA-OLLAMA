@@ -8,7 +8,7 @@
   
   3.  **Install all the required dependencies mentioned in requirements.txt:** pip install -r requirements.txt
   
-  4:  **Pull Ollama models we are going to use:** ollama pull llama3.2
+  4.   **Pull Ollama models we are going to use:** ollama pull llama3.2
   
   5.  **Pull Ollama models we are going to use:** ollama pull mxbai-embed-large
      
