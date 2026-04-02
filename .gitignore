@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+*.pyc
+# Ignore your ChromaDB folder (usually better to rebuild locally)
+chroma_db/ 
+.env
